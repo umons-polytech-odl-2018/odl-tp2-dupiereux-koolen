@@ -26,7 +26,7 @@ public class BaseSalaryPlusCommissionEmployeeTest extends AbstractEmployeeTest {
 	@Test
 	public void computeSalary_with_no_salary() {
 		Employee employee = exercise1.buildBaseSalaryPlusCommissionEmployee("Charlie", 0, 500);
-		for (int i = 0; i < 14; i++) {
+		for (int i = 0; i < 7; i++) {
 			employee.sell();
 		}
 		assertThat(employee.computeSalary()).isEqualTo(3500);
