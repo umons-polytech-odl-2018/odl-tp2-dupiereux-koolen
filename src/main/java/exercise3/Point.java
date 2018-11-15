@@ -24,4 +24,11 @@ public class Point {
 	public int getY() {
 		return this.y;
 	}
+	public void setX(int nvx){
+		this.x=nvx;
+	}
+	public void setY(int nvy){
+		this.y=nvy;
+	}
 }
+
